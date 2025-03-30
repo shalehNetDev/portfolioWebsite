@@ -1,0 +1,74 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+nav ul li{
+    margin-right: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(46, 46, 46);
+}
+.btn-primary{
+    background-color: #ff8400;
+    color: rgb(249, 249, 249);
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 800;
+}
+header{
+    background-color: #f4e2c4;
+    color: rgb(46, 46, 46);
+    padding: 10px 100px 10px 200px;
+    
+}
+.headerNav{
+    font-size: 50px;
+    font-weight: 800;
+}
+
+
+.headerContent {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Optional: Adjusts alignment of content */
+}
+.headerContentImage{
+    width: 40%;
+}
+
+.headerContent img {
+    width: 350px;
+    height: auto;  /* Keep aspect ratio */
+    flex-shrink: 0;  /* Prevent the image from shrinking */
+}
+
+.headerContentTextcontainer {
+    width: 60%;  /* Allow text container to adjust its width freely */
+    max-width: 70%;  /* Optional: You can restrict the max-width */
+    /* padding-right: 200px;; */
+}
+.headerContentText{
+    width: 80%;
+}
+.h2{
+    font-size: 40px;
+    color: rgb(63, 62, 62);
+}
+.name{
+    font-size: 40px;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+}
